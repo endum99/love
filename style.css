@@ -1,0 +1,114 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Gradasi cerah */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #f6d365, #fda085);
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  header img {
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  header h1,
+  header  {
+    color: black;
+  }
+
+  .sosmed {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 1px;
+    margin-top: 20px;
+  }
+  
+  .sosmed a {
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px black;
+  }
+
+  .sosmed .fb {
+    background-color: blue;
+    color: white;
+  }
+  .sosmed .fb:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .sosmed .wa {
+    background-color: green;
+    color: white;
+  }
+  .sosmed .wa:hover {
+    background-color: white;
+    color: #000;
+  }
+
+  .sosmed .yt {
+    background-color: red;
+    color: white;
+  }
+
+  .sosmed .yt:hover {
+    background-color: white;
+    color: #000;
+  }
+
+  .gallery .images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
+  
+  .articles {
+    margin-top: 30px;
+  }
+  
+  .articles article {
+    background: #ffffffcc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
